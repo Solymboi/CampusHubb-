@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CampusHub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sidebar">
+<h1>🎓 CampusHub</h1>
+<ul>
+<li>Dashboard</li><li>Documents</li><li>Departments</li><li>Uploads</li>
+</ul>
+</div>
+
+<div class="main">
+<div class="searchBox">
+<input type="text" id="search" placeholder="Search notes...">
+</div>
+
+<div class="cards">
+<div class="doc">
+<div class="header orange">WEB DEVELOPMENT</div>
+<h2>Entrepreneurial Finance</h2>
+<p>Business financing and venture creation.</p>
+<button onclick="window.open('documents/finance.pdf')">Preview</button>
+<a href="documents/finance.pdf" download>Download</a>
+</div>
+
+<div class="doc">
+<div class="header purple">OPERATIONS RESEARCH</div>
+<h2>Optimization and LP</h2>
+<p>Linear programming and simplex method.</p>
+<button onclick="window.open('documents/OR99.pptx')">Preview</button>
+<a href="documents/OR99.pptx" download>Download</a>
+</div>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
